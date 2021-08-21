@@ -69,8 +69,13 @@ buscar.addEventListener('click', e => {
                                     <div style="color:white;">${fecha}</div>
                                     <div style="color:white;">${hora}</div>
                                     <div style="color:white;">${sintomas}
-                                    <button>Borrar</Button></div><br>             
+                                    <button id="btnBorrar" onclick="borrar()">Borrar</Button></div><br>             
                 `   
              })
           )
 })
+
+function borrar(){
+    let borrar = document.getElementById('btnBorrar');
+    
+}
